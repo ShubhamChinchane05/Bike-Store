@@ -1,63 +1,50 @@
-📊 Retail Analytics SQL Queries
-This project contains a comprehensive set of SQL queries designed for analyzing sales, customer behavior, product performance, and store operations in a retail database.
+# 📊 Retail Analytics SQL Queries
 
-🛠️ Technologies Used
-Database: PostgreSQL (or compatible RDBMS)
+This repository contains a collection of SQL queries for analyzing sales, customers, products, and store performance within a retail database environment.
 
-Language: SQL
+## 🛠️ Technologies Used
 
-🔍 Key Query Topics
-The script includes 18+ practical business queries:
+- **Database**: PostgreSQL (or any SQL-compliant RDBMS)
+- **Language**: SQL
 
-Product & Pricing
+## 📌 Overview of Queries
 
-List of product names with prices
+The script includes a variety of real-world use cases that are commonly used in data analytics projects:
 
-Products by brand and category
+### 🛍️ Product & Inventory
+- List all product names and their list prices.
+- Display each product with its brand and category.
+- Show total quantity of each product in stock across all stores.
 
-Stock levels per store
+### 📈 Sales Insights
+- Calculate total sales revenue per store.
+- Identify the top 5 most sold products (by quantity).
+- Get the best-selling brand based on quantity.
+- Compare total sales made in each year.
+- Find the average order value per customer.
 
-Sales Performance
+### 👤 Customer Analytics
+- List customers who placed more than 3 orders.
+- Display total amount spent by each customer.
+- Identify customers from cities where stores are located.
+- Get customers who ordered from more than one category.
+- Determine which city has the highest number of customers.
 
-Total sales revenue by store
+### 📆 Time-Based Analysis
+- Find the number of orders placed each month.
+- Determine the day with the highest number of orders.
 
-Top 5 most sold products
+### 📦 Product Category Overview
+- Show the total number of products in each category.
 
-Best-selling brand
+### 📍 Geographic Insights
+- Get the number of customers in each city.
 
-Sales comparison by year
+## 💡 Use Cases
 
-Customer Analytics
+- SQL Practice for interviews
+- Portfolio project for data analysts
+- Business Intelligence and Reporting
+- Dashboard integration in tools like Power BI, Tableau, or Looker
 
-Orders placed per customer
-
-Total spending per customer
-
-Customers in same city as stores
-
-Cities with most customers
-
-Time-Based Insights
-
-Monthly and daily order counts
-
-Average order value
-
-Peak sales day
-
-Category & Brand Insights
-
-Products per category
-
-Customers ordering from multiple categories
-
-💡 Use Case
-Useful for:
-
-Data Analyst / BI Projects
-
-Dashboard Integration
-
-SQL Practice for Interviews
-
-Retail or eCommerce Sales Analysis
+Feel free to contribute more queries or suggest improvements!
